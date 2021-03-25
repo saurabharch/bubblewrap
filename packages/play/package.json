@@ -1,0 +1,22 @@
+{
+  "name": "@bubblewrap/play",
+  "version": "1.11.1",
+  "description": "The Google Play package for Bubblewrap integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && jasmine --config=jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoogleChromeLabs/bubblewrap.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/GoogleChromeLabs/bubblewrap/issues"
+  },
+  "homepage": "https://github.com/GoogleChromeLabs/bubblewrap#readme",
+  "dependencies": {
+    "googleapis": "^68.0.0"
+  }
+}
