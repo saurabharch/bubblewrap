@@ -14,8 +14,11 @@
  *  limitations under the License.
  */
 
+<<<<<<< HEAD
 // Following the instructions from here : https://developers.google.com/android-publisher/tracks
 
+=======
+>>>>>>> f4c3f2c43720641142f0e2cb3e2e7d65d7a67d7b
  import { google } from 'googleapis';
 
  // Clean this up. Borrowed from chromeos/pwa-play-billing
@@ -31,8 +34,11 @@ const playApi = google.androidpublisher({
     auth: jwtClient,
 });
 
+<<<<<<< HEAD
 // Step 1
 // Source : https://developers.google.com/android-publisher/api-ref/rest/v3/edits/insert
+=======
+>>>>>>> f4c3f2c43720641142f0e2cb3e2e7d65d7a67d7b
 export async function GenerateAppEdit() {
     try {
         const apiResponse = (
@@ -41,6 +47,7 @@ export async function GenerateAppEdit() {
     } catch (error) {
         console.error(`Cannot generate an app edit : ${error}`);
     }
+<<<<<<< HEAD
     // TODO(nohe427): Export to an app edit type
 }
 
@@ -74,3 +81,8 @@ export async function isOurBundleHighestAvailable() {
 // Tips For Uploading : https://developers.google.com/android-publisher/upload
 
 
+=======
+    // Export to an app edit type
+}
+
+>>>>>>> f4c3f2c43720641142f0e2cb3e2e7d65d7a67d7b
